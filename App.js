@@ -42,7 +42,7 @@ export default function App() {
       typeText(resultText);
     } catch (err) {
       console.error('Error:', err);
-      setResponse('Terjadi kesalahan.');
+      setResponse('Terjadi kesalahan.')
     } finally {
       setLoading(false);
       setPrompt('');
